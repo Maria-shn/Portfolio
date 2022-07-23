@@ -15,12 +15,16 @@ body {
 }
 
 nav {
+    
     margin-left: 100px;
     margin-top: 30px;
     max-width: 30%;
     display:flex;
     justify-content: space-between;
 
+}
+nav > a {
+    text-decoration: none;
 }
 
 
@@ -57,4 +61,11 @@ ul {
     font-size: 20px;
 }
 
+button {
+    background-color: black;
+    width: fit-content;
+    border-radius: 2em;
+    border-color: white;
+    text-decoration: none;
 
+}
