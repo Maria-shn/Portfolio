@@ -4,7 +4,7 @@
 
 body {
     background-color: black;
-    background-image: linear-gradient(0deg, rgb(0, 0, 0), transparent 70%, transparent), url("photo p.PNG");
+    background-image: linear-gradient(0deg, rgb(0, 0, 0), transparent 70%, transparent), url("unblurimage.png");
     background-position: 94% 90%;
     background-repeat: no-repeat ;
     background-attachment: fixed;
@@ -25,6 +25,10 @@ nav {
 }
 nav > a {
     text-decoration: none;
+}
+
+nav > a:visited {
+     color: #3B8CCD;
 }
 
 
