@@ -73,3 +73,10 @@ button {
     text-decoration: none;
 
 }
+
+#allprojects {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
