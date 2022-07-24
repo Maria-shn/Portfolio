@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+nav {
+    
+    margin-left: 130px;
+    margin-top: 30px;
+    max-width: 15%;
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+nav > a {
+    height: 24px;
+    text-decoration: none;
+    width: 42.6875px;
+}
+
+nav > a:visited {
+     color: #3B8CCD;
+}
+
+h1 {
+    text-align: center;
+}
+
+.languages {
+    font-size: 18px;
+}
+
+#allprojects {
+    padding: 130px;
+    display: grid;
+    grid-template-columns: 40rem 40rem;
+    grid-template-rows: auto;
+    grid-gap: 5rem 1rem;
+}
+
+.project > img {
+    max-width: 80%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: solid white;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    max-width: 80%;
+}
+
+a{
+    color: white;
+    text-decoration: underline;
+}
