@@ -16,7 +16,6 @@ body {
 
 
 #menubars {
-    z-index:-1111;
 }
 
 nav {
@@ -97,12 +96,11 @@ button {
         padding-right: 5px;
         width: 75%;
         background-color: black;
-        border-right: solid thin white;
-        
+        transform: translate(-195px, 0);
     }
 
     #menubars {
-        z-index: 10;
+        z-index: initial;
     }
 
     nav {
