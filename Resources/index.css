@@ -14,12 +14,17 @@ body {
     
 }
 
+
+#menubars {
+    z-index:-1111;
+}
+
 nav {
     
     margin-left: 100px;
     margin-top: 30px;
     max-width: 30%;
-    display:flex;
+    display:inline-flex;
     justify-content: space-between;
 
 }
@@ -75,5 +80,62 @@ button {
 }
 
 @media only screen and (max-width: 470px) {
+
+    body{
+        background-image: none;
+    }
+
+
+
+    #menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        z-index: 3;
+        padding-bottom: 30px;
+        padding-right: 5px;
+        width: 75%;
+        background-color: black;
+        border-right: solid thin white;
+        
+    }
+
+    #menubars {
+        z-index: 10;
+    }
+
+    nav {
+        display: inline-flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: auto;
+        padding-top: 60px;
+        height: 200px;
+
+    }
+
+    h1 {
     
+    }
+
+    #presentation {
+        position: relative;
+        z-index: 1;
+        font-size: initial;
+    }
+
+    .skills {
+        font-size: initial;
+
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        list-style: circle;
+
 }
+
+
