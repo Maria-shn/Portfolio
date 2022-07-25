@@ -35,8 +35,19 @@ h1 {
     margin-left: 100px;
 }
 
-.fab fa-github icon {
-    color: white 
+div {
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+#form-message {
+    margin-top: 60px;
+}
+
+i {
+    color: white ;
+    margin-left: 100px;
 }
 
 form {
