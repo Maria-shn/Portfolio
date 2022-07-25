@@ -1,5 +1,5 @@
 const menubars =document.getElementById("menubars");
-const menu =document.getElementById("menu");
+const menu = document.getElementById("menu");
 
 
 let appear = function() {
