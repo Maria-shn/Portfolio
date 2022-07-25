@@ -1,5 +1,6 @@
-const menubars =document.getElementById("menubars")
-const menu =document.getElementById("menu")
+const menubars =document.getElementById("menubars");
+const menu =document.getElementById("menu");
+
 
 let appear = function() {
     menu.style.borderRight = "white thin";
@@ -12,6 +13,7 @@ const disappear = function() {
     appear = false;
 };
 
-menubars.addEventListener("click", appear);
-
-document.getElementById("presentation").innerHTML= "hi"
+menubars.addEventListener("touch", function() {
+    menu.style.borderRight = "white thin";
+    menu.style.transform = "translate(195px)";
+});

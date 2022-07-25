@@ -14,8 +14,8 @@ body {
     
 }
 
-
 #menubars {
+    display: none;
 }
 
 nav {
@@ -29,6 +29,7 @@ nav {
 }
 nav > a {
     text-decoration: none;
+    padding-right: 60px;
 }
 
 nav > a:visited {
@@ -100,7 +101,7 @@ button {
     }
 
     #menubars {
-        z-index: initial;
+        display: initial;
     }
 
     nav {
