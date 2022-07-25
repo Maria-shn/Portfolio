@@ -3,17 +3,36 @@
     <head>
         <meta charset="utf-8">
         <title>Maria's Portfolio</title>
-        <link href="./Resources/index.css" type="text/css" rel="stylesheet">
+        <link href="./Resources/contact.css" type="text/css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     </head>
     <body>
-        <h1>Contact details</h1>
-
-        <form action="submission.html" method="GET">
-        <label for="email">email</label>
-        <input id="email" required type="text">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+        </nav>
         <br>
-        <textarea required rows='8' cols='40'>Leave me a message!</textarea>
+        <br>
+        <h1>Contact</h1>
+        <div>You can contact me by:</div>
+        <i class="fab fa-github icon"></i>
+            
+        
+        <div>Or fill out the form:</div>
+        <form action="submission.html" method="POST">
+        <label for="name">name:</label><br>
+        <input id="name" name="name" required type="text">
+        <br>
+        <br>
+        <label for="email">email:</label><br>
+        <input id="email" name="email" required type="text">
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea required rows='8' cols='40' name="message" id="message">Leave me a message!</textarea>
+        <br>
+        <input type='submit' value='Submit'>
         </form>
     </body>
 </html>

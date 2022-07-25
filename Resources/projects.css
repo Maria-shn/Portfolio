@@ -6,7 +6,7 @@ body {
 
 nav {
     
-    margin-left: 130px;
+    margin-left: 100px;
     margin-top: 30px;
     max-width: 15%;
     display:flex;
@@ -15,9 +15,8 @@ nav {
 
 }
 nav > a {
-    height: 24px;
+    font-weight: 600;
     text-decoration: none;
-    width: 42.6875px;
 }
 
 nav > a:visited {
