@@ -3,7 +3,7 @@ const menu = document.getElementById("menu");
 
 
 /*let appear = function() {
-    menu.style.borderRight = "white thin";
+    menu.style.borderRight = "white solid thin";
     menu.style.transform = "translate(195px)";
 };
 
@@ -13,7 +13,7 @@ const disappear = function() {
     appear = false;
 }; */
 
-menubars.addEventListener("touch", function() {
-    menu.style.borderRight = "white thin";
-    menu.style.transform = "translate(195px)";
+menubars.addEventListener("click", function() {
+    menu.style.borderRight = "white solid thin";
+    menu.style.transform = "translateX(195px)";
 });
