@@ -13,8 +13,17 @@ const disappear = function() {
     appear = false;
 }; */
 
+if (menu.style.transform = "translateX(-250px)") {
 menubars.addEventListener("click", function() {
     menu.style.borderRight = "white solid thin";
     menu.style.transform = "translateX(-50px)";
     menu.style.background = "black";
 });
+} else if(menu.style.transform = "translateX(-50px)") {
+    menubars.addEventListener("click", function() {
+        menu.style.borderRight = "none";
+        menu.style.transform = "translateX(-250px)";
+        menu.style.background = "none";
+    });
+
+}
