@@ -62,3 +62,57 @@ a{
     color: white;
     text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 470px) {
+
+    body{
+        background-image: none;
+    }
+
+
+
+    #menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        z-index: 3;
+        padding-bottom: 30px;
+        padding-right: 5px;
+        width: 75%;
+        background-color: black;
+        transform: translate(-195px, 0);
+    }
+
+    #menubars {
+        display: initial;
+    }
+
+    nav {
+        display: inline-flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: auto;
+        padding-top: 60px;
+        height: 200px;
+
+    }
+
+    #allprojects {
+        padding: 5vw;
+        display: grid;
+        grid-template-columns: 60rem;
+        grid-template-rows: auto;
+        grid-gap: 5rem 1rem;
+    }
+
+    .project > img {
+        width: 90vw;
+    }
+
+    p {
+        max-width: 90vw;
+    }
+
+}
