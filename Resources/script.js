@@ -16,4 +16,5 @@ const disappear = function() {
 menubars.addEventListener("click", function() {
     menu.style.borderRight = "white solid thin";
     menu.style.transform = "translateX(-50px)";
+    menu.style.background = "black";
 });

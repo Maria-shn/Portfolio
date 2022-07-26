@@ -103,6 +103,7 @@ button {
         width: 75%;
         background-color: black;
         transform: translate(-195px, 0);
+        background: none;
     }
 
     #menubars {

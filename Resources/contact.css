@@ -66,3 +66,42 @@ input, textarea {
     min-height: 25px;
     margin-top: 10px;;
 }
+
+
+@media only screen and (max-width: 470px) {
+
+    body{
+        background-image: none;
+    }
+
+
+
+    #menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        z-index: 3;
+        padding-bottom: 30px;
+        padding-right: 5px;
+        width: 75%;
+        background-color: black;
+        transform: translate(-195px, 0px);
+        background: none
+    }
+
+    #menubars {
+        display: initial;
+        color: white;
+    }
+
+    nav {
+        display: inline-flex;
+        flex-direction: column;
+        margin: auto;
+        max-width: auto;
+        padding-top: 60px;
+        height: 200px;
+
+    }
+}
