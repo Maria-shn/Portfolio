@@ -109,6 +109,7 @@ button {
     #menubars {
         display: initial;
         padding-top: 5px;
+        color: white;
     }
 
     nav {

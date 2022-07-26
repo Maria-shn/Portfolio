@@ -103,4 +103,9 @@ input, textarea {
         height: 200px;
 
     }
+
+    .icon {
+        color: white ;
+        width: 30vw;
+    }
 }
