@@ -1,5 +1,6 @@
 const menubars =document.getElementById("menubars");
 const menu = document.getElementById("menu");
+const menucontact = document.getElementById("menucontact");
 
 
 /*let appear = function() {
@@ -13,17 +14,26 @@ const disappear = function() {
     appear = false;
 }; */
 
-if (menu.style.transform = "translateX(-250px)") {
 menubars.addEventListener("click", function() {
     menu.style.borderRight = "white solid thin";
     menu.style.transform = "translateX(-50px)";
     menu.style.background = "black";
-});
-} else if(menu.style.transform = "translateX(-50px)") {
-    menubars.addEventListener("click", function() {
+})
+
+menubars.addEventListener("click", function() {
+    menucontact.style.borderRight = "white solid thin";
+    menucontact.style.transform = "translateX(-150px)";
+    menucontact.style.background = "black";
+})
+
+menubars.addEventListener("click", function() {
+    menuprojects.style.borderRight = "white solid thin";
+    menuprojects.style.transform = "translateX(-100px)";
+    menuprojects.style.background = "black";
+})
+
+ /*menubars.addEventListener("click", function() {
         menu.style.borderRight = "none";
         menu.style.transform = "translateX(-250px)";
         menu.style.background = "none";
-    });
-
-}
+    });*/

@@ -7,7 +7,10 @@ body {
     background-size: auto 90%;
     margin: 0;
     font-family: 'Heebo', sans-serif;
-    
+}
+
+#menucontact {
+    padding-left: 50px;
 }
 
 #menubars {
@@ -16,7 +19,7 @@ body {
 
 nav {
     
-    margin-left: 0;
+    margin-left: 150px;
     margin-top: 30px;
     max-width: 30%;
     display:inline-flex;
@@ -48,10 +51,6 @@ div {
     margin-top: 60px;
 }
 
-.icon {
-    color: white ;
-    margin-left: 100px;
-}
 
 form {
     margin-left: 100px;
@@ -74,7 +73,7 @@ input, textarea {
         background-image: none;
     }
 
-    #menu {
+    #menucontact {
         position: absolute;
         display: flex;
         flex-direction: row-reverse;
@@ -84,7 +83,7 @@ input, textarea {
         padding-right: 5px;
         width: 75%;
         background-color: black;
-        transform: translate(-350px, 0px);
+        transform: translate(-400px, 0px);
         background: none
     }
 
@@ -104,8 +103,12 @@ input, textarea {
 
     }
 
-    .icon {
+    #icons {
+        margin-left: 100px;
+    }
+
+    .fa-solid, .fa-brands  {
         color: white ;
-        width: 30vw;
+        padding-right: 30px;
     }
 }
