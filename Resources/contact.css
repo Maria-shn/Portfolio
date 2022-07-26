@@ -10,7 +10,7 @@ body {
 }
 
 #menucontact {
-    padding-left: 50px;
+    padding-left: 0px;
 }
 
 #menubars {
@@ -19,7 +19,7 @@ body {
 
 nav {
     
-    margin-left: 150px;
+    margin-left: 0px;
     margin-top: 30px;
     max-width: 30%;
     display:inline-flex;
@@ -66,6 +66,15 @@ input, textarea {
     margin-top: 10px;;
 }
 
+#icons {
+    margin-left: 100px;
+}
+
+.fa-solid, .fa-brands  {
+    color: white ;
+    padding-right: 30px;
+}
+
 
 @media only screen and (max-width: 470px) {
 
@@ -81,6 +90,7 @@ input, textarea {
         z-index: 3;
         padding-bottom: 30px;
         padding-right: 5px;
+        padding-left: 50px;
         width: 75%;
         background-color: black;
         transform: translate(-400px, 0px);
@@ -96,12 +106,14 @@ input, textarea {
     nav {
         display: inline-flex;
         flex-direction: column;
+        justify-content: space-between;
         margin: auto;
         max-width: auto;
         padding-top: 60px;
         height: 200px;
 
     }
+
 
     #icons {
         margin-left: 100px;
