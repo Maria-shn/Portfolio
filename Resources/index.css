@@ -102,12 +102,13 @@ button {
         padding-right: 5px;
         width: 75%;
         background-color: black;
-        transform: translate(-195px, 0);
+        transform: translate(-250px, 0);
         background: none;
     }
 
     #menubars {
         display: initial;
+        padding-top: 5px;
     }
 
     nav {

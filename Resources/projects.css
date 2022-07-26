@@ -82,13 +82,15 @@ a{
         padding-right: 5px;
         width: 75%;
         background-color: black;
-        transform: translate(-195px, 0px);
+        transform: translate(-250px, 0);
+        background: none;
         background: none
     }
 
     #menubars {
         display: initial;
         color: white;
+        padding-top: 5px;
     }
 
     nav {
