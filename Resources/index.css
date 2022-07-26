@@ -70,6 +70,11 @@ ul {
     font-size: 20px;
 }
 
+li {
+    padding-right: 30px;
+    width: auto;
+    }
+
 button {
     background-color: black;
     width: fit-content;
@@ -131,8 +136,9 @@ button {
         flex-direction: column;
         justify-content: space-between;
         list-style: circle;
+        flex-wrap: wrap;
 
-}
+    }
 
 
 }

@@ -4,19 +4,23 @@ body {
     color: white;
 }
 
+#menubars {
+    display: none;
+}
+
 nav {
     
     margin-left: 100px;
     margin-top: 30px;
-    max-width: 15%;
-    display:flex;
+    max-width: 30%;
+    display:inline-flex;
     justify-content: space-between;
-    
 
 }
 nav > a {
     font-weight: 600;
     text-decoration: none;
+    padding-right: 60px;
 }
 
 nav > a:visited {
