@@ -119,7 +119,9 @@ a{
     }
 
     .project > img {
-        width: 90vw;
+        max-width: 90vw;
+        max-height: 30px;
+
     }
 
     p {
